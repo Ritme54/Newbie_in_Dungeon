@@ -1,6 +1,9 @@
 ﻿#include <iostream>
 #include <string>
 #include "Player.h"
+#include "Monster.h"
+#include "Slime.h"
+
 
 using namespace std;
 
@@ -15,6 +18,12 @@ int main()
 	Player user(name, 100, 10, 5);
 
 	user.DisplayStatus();
+
+	Slime GreenSlime;
+
+	GreenSlime.DisplayStatus();
+
+
 
 	return 0;
 

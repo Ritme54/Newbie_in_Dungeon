@@ -1,7 +1,9 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include "Monster.h"
+
+class Monster;
+
 
 using namespace std;
 
@@ -17,7 +19,7 @@ private:
     int exp;//획득한 경험치
     int requiredExp;//최대 경험치. 최대치가 넘어가면 레벨업하며 일정하게 증가함
 public:
-    Player(string initialName, int instialHp, int instialAttack, int instialDefense);
+    Player(string initialName, int initialHp, int initialAttack, int initialDefense);
 
     void Attack(Monster& targetEnemy); // Enemy 클래스가 있다고 가정 몬스터 전체에 적용되도록 해야함. 기본적으로 플레이어 공격력-몬스터 방어력이 되도록 해야함.
     void TakeDamage(int damageAmount); //반대로 몬스터 공격력-플레이어 방어력이 되야함.

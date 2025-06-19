@@ -10,7 +10,9 @@ private:
 
 
 public:
-	
+	Slime();
+
+	virtual ~Slime() override;
 
 };
 

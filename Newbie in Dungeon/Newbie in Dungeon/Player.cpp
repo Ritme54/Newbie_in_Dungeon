@@ -1,16 +1,16 @@
 #include "Player.h"
 #include <string>
 #include <iostream>
-
+#include "Monster.h"
 
 using namespace std;
 
-Player::Player(string initialName, int instialHp, int instialAttack, int instialDefense):
+Player::Player(string initialName, int initialHp, int initialAttack, int initialDefense):
 	name(initialName),
-	hp(instialHp),
-	maxHp(instialHp),
-	attack(instialAttack),
-	defense(instialDefense),
+	hp(initialHp),
+	maxHp(initialHp),
+	attack(initialAttack),
+	defense(initialDefense),
 	level(1),
 	exp(0),
 	requiredExp(100)
@@ -23,9 +23,13 @@ void Player::Attack(Monster& targetEnemy)
 
 }
 
+
+
 void Player::TakeDamage(int damageAmount)
 {
 }
+
+
 
 void Player::GainExperience(int expAmount)
 {
