@@ -27,6 +27,14 @@ public:
     void LevelUp();//최대치가 넘어가면 레벨업하며 일정하게 증가함
     void DisplayStatus();//화면에 생성될 플레이어 상태창 언제 얼마나 표시될지는 미정
 
+    bool IsAlive() const;
+
+    int GetHP() const; // 현재 체력을 반환
+    int GetMaxHP() const; // 최대 체력을 반환
+    int GetAttack() const; // 공격력을 반환
+    int GetDefense() const; // 방어력을 반환
+    std::string GetName() const; // 몬스터 이름을 반환
+
     ~Player();
 
 

@@ -31,6 +31,8 @@ public:
     int GetEXPValue() const; // 쓰러뜨렸을 때 주는 경험치 값을 반환
     std::string GetName() const; // 몬스터 이름을 반환
 
+    bool IsAlive() const;//현재 살아있는지 확인
+
    virtual ~Monster();
 
 

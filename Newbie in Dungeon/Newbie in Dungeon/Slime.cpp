@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Slime::Slime() : Monster("녹색 슬라임", 30, 5, 2, 10)
+Slime::Slime() : Monster("녹색 슬라임", 30, 6, 3, 10)
 {
 	cout << "녹색 슬라임이 나타났다." << endl;
 }

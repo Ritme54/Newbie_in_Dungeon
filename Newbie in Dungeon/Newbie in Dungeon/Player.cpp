@@ -18,15 +18,38 @@ Player::Player(string initialName, int initialHp, int initialAttack, int initial
 	cout << "캐릭터가 생성되었습니다." << endl;
 }
 
+#pragma region 전투 로직
+
+
 void Player::Attack(Monster& targetEnemy)
 {
-
+	if (!IsAlive()) return;
+	cout << name << "(이)가" << targetEnemy.GetName() << "(을)를 공격합니다." << endl;
+	int damage = attack - targetEnemy.GetDefense();
+	if (damage < 0) damage = 0;
+	targetEnemy.TakeDamage(damage);
 }
 
 
 
 void Player::TakeDamage(int damageAmount)
 {
+	if (!IsAlive()) return;
+
+	hp -= damageAmount;
+	cout << name << "(은)는" << damageAmount << "의 피해를 입었습니다." << endl;
+	if (hp<=0)
+	{
+
+		hp = 0;
+	std::cout << "체력: " << hp << "/" << maxHp << std::endl;
+		cout << name << "(이)가 쓰러졌습니다..." << endl;
+	}
+	else
+	{
+		std::cout << "체력: " << hp << "/" << maxHp << std::endl;
+	}
+
 }
 
 
@@ -38,6 +61,8 @@ void Player::GainExperience(int expAmount)
 void Player::LevelUp()
 {
 }
+
+
 
 void Player::DisplayStatus()
 {
@@ -53,14 +78,52 @@ void Player::DisplayStatus()
 
 }
 
+bool Player::IsAlive() const
+{
+	return hp > 0;
+	return true;
+}
+#pragma region 상태 반환
+
+int Player::GetHP() const
+{
+	return hp;
+}
+
+int Player::GetMaxHP() const
+{
+	return maxHp;
+}
+
+int Player::GetAttack() const
+{
+	return attack;
+}
+
+int Player::GetDefense() const
+{
+	return defense;
+}
+
+std::string Player::GetName() const
+{
+	return name;
+}
+
+
+
+#pragma endregion
+
+
+
+
 Player::~Player()
 {
-
-	if (int hp=0)
-	{
-cout << "캐릭터가 치료소로 실려갔습니다." << endl;
-	}
-	
-
 }
+
+#pragma endregion
+
+
+
+
 

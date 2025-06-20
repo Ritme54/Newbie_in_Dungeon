@@ -17,8 +17,36 @@ Monster::Monster(string initialName, int initialHp, int initialAttack, int initi
 
 
 #pragma region 행동 로직
+
+
+
+
 void Monster::Attack(Player& targetPlayer)
 {
+	if (!IsAlive()) return;
+	cout << name << "(이)가" << targetPlayer.GetName() << "(을)를 공격합니다." << endl;
+	int damage = attack - targetPlayer.GetDefense();
+	if (damage < 0) damage = 0;
+	targetPlayer.TakeDamage(damage);
+}
+
+void Monster::TakeDamage(int damageAmount)
+{
+	if (!IsAlive()) return;
+	hp -= damageAmount;
+	cout << name << "(은)는" << damageAmount << "의 피해를 입었습니다." << endl;
+	
+	if (hp <= 0)
+	{
+		hp = 0;
+		std::cout << "체력: " << hp << "/" << maxHp << std::endl;
+		cout << name << "(을)를 쓰러졌습니다..." << endl;
+	}
+	else
+	{
+	std::cout << "체력: " << hp << "/" << maxHp << std::endl;
+	}
+	
 }
 void Monster::DisplayStatus() const
 {
@@ -63,18 +91,19 @@ std::string Monster::GetName() const
 {
 	return name;
 }
+bool Monster::IsAlive() const
+{
+	return hp > 0;
+	return true;
+}
+
+Monster::~Monster()
+{
+
+}
+
 
 #pragma endregion
 
 
 
-
-Monster::~Monster()
-{
-	if (int hp=0)
-	{
-		std::cout << "--- 을 쓰려트렸습니다." << std::endl;
-
-		std::cout << "전투에서 승리했습니다." << std::endl;
-	}
-}

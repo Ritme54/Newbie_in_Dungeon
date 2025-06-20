@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Slime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Newbie in Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Newbie in Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Newbie in Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Slime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Slime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Slime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Player.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Player.cpp",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Player.cpp",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Player.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Player.cpp",
               "RelativeToolTip": "Newbie in Dungeon\\Player.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T05:08:09.33Z",
               "IsPinned": true,
@@ -58,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Player.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Player.h",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Player.h",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Player.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Player.h",
               "RelativeToolTip": "Newbie in Dungeon\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T05:04:33.412Z",
               "IsPinned": true,
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Monster.cpp",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Monster.cpp",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp",
               "RelativeToolTip": "Newbie in Dungeon\\Monster.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T13:59:37.088Z",
               "IsPinned": true,
@@ -86,11 +86,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Monster.h",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Monster.h",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h",
               "RelativeToolTip": "Newbie in Dungeon\\Monster.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T06:01:37.002Z",
               "IsPinned": true,
@@ -98,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Slime.cpp",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.cpp",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Slime.cpp",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.cpp",
               "RelativeToolTip": "Newbie in Dungeon\\Slime.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T13:28:44.04Z",
               "IsPinned": true,
@@ -112,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Slime.h",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.h",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Slime.h",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Slime.h",
               "RelativeToolTip": "Newbie in Dungeon\\Slime.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T06:33:44.016Z",
               "IsPinned": true,
@@ -126,16 +126,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Newbie in Dungeon.cpp",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Newbie in Dungeon.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Newbie in Dungeon.cpp",
               "RelativeDocumentMoniker": "Newbie in Dungeon\\Newbie in Dungeon.cpp",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Newbie in Dungeon.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Newbie in Dungeon.cpp",
               "RelativeToolTip": "Newbie in Dungeon\\Newbie in Dungeon.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T04:08:21.422Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
