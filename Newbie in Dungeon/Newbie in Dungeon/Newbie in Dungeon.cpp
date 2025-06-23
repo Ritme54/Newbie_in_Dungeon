@@ -11,6 +11,8 @@
 
 using namespace std;
 
+std::mt19937 rng(static_cast<unsigned int>(time(nullptr)));
+
 void EndCombat(Player& player, Monster& monster)
 {
 	if (!player.IsAlive()) // Player::IsAlive() 함수 사용
@@ -39,6 +41,8 @@ void startcombat(Player& player, Monster& monster)
 	cout << monster.GetName() << "(과)와 조우했다! " << "   ";
 	while (player.IsAlive() && monster.IsAlive())
 	{
+		player.DisplayStatus();
+		monster.DisplayStatus();
 		player.Attack(monster);
 		if (!monster.IsAlive())
 		{
@@ -49,6 +53,7 @@ void startcombat(Player& player, Monster& monster)
 		{
 			break;
 		}
+		cout << "\n --- 턴 종료 --- " << endl;
 	}
 	EndCombat(player, monster);
 	
@@ -56,8 +61,17 @@ void startcombat(Player& player, Monster& monster)
 
 // TODO: 몬스터 풀에서 랜덤으로 하나 선택하여 생성하는 함수 추가
 // 이전에 설명드린 createRandomMonster 함수를 여기에 정의해야 합니다.
-std::unique_ptr<Monster> createRandomMonster(
-	const std::vector<std::function<std::unique_ptr<Monster>()>>& monsterPool);
+std::unique_ptr<Monster> createRandomMonster(const vector<function<unique_ptr<Monster>()>>& monsterPool)
+{if (monsterPool.empty())
+{
+	return nullptr;
+
+}
+uniform_int_distribution<int> dist(0, monsterPool.size() - 1);
+int randomindex = dist(rng);
+return monsterPool[randomindex]();
+
+}
 
 
 
@@ -76,11 +90,6 @@ int main()
 	Player user(name, 100, 10, 5);
 
 	user.DisplayStatus();
-
-	//랜덤시드(던전 N층)
-	srand(static_cast<unsigned int>(time(nullptr)));
-
-
 
 #pragma region 몬스터 스마트 포인터(생성 및 소멸 담당.)
 	vector<vector<function<unique_ptr<Monster>()>>>dungenMonsterPools(5);
@@ -138,31 +147,24 @@ int main()
 			if (currentMonster)
 			{
 				startcombat(user, *currentMonster);
-				if (!user.IsAlive())
-				{
-					//플레이어 패배
-					// 게임오버 루프 탈출
-					break;
-				}
-				else
-				{
-					//승리
-				}
 			}
 
 		}
 
 	}
 #pragma endregion
-
+	if (user.IsAlive() && currentFloor > totalFloors)
+	{
+		std::cout << "\n--- 던전 클리어! ---" << std::endl;
+		std::cout << "당신은 이 던전을 돌파했습니다." << std::endl;
+	}
+	else if (!user.IsAlive())
+	{
+		std::cout << "\n--- 게임 종료 ---" << std::endl;
+	}
 
 	
 	return 0;
 
 
-}
-
-std::unique_ptr<Monster> createRandomMonster(const std::vector<std::function<std::unique_ptr<Monster>()>>& monsterPool)
-{
-	return std::unique_ptr<Monster>();
 }

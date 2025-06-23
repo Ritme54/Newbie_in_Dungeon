@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Monster">
+      <UniqueIdentifier>{22daadce-ac38-421d-9e0e-a88a1476156a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\monster">
+      <UniqueIdentifier>{dabf37c2-144d-4011-acf7-3b0bff5e5b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tile">
+      <UniqueIdentifier>{e022fec6-bdb2-48d7-bd76-3e34410d67fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tile">
+      <UniqueIdentifier>{f8797bf9-27e4-4d79-9fd0-68f269367f0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Newbie in Dungeon.cpp">
@@ -22,10 +34,28 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Monster.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Monster</Filter>
     </ClCompile>
     <ClCompile Include="Slime.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTile.cpp">
+      <Filter>소스 파일\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="RestTile.cpp">
+      <Filter>소스 파일\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyTile.cpp">
+      <Filter>소스 파일\Tile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -33,10 +63,28 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Monster.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\monster</Filter>
     </ClInclude>
     <ClInclude Include="Slime.h">
+      <Filter>헤더 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTile.h">
+      <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="RestTile.h">
+      <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyTile.h">
+      <Filter>헤더 파일\Tile</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -127,15 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dungeon.cpp" />
+    <ClCompile Include="EmptyTile.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterTile.cpp" />
     <ClCompile Include="Newbie in Dungeon.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RestTile.cpp" />
     <ClCompile Include="Slime.cpp" />
+    <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dungeon.h" />
+    <ClInclude Include="EmptyTile.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterTile.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="RestTile.h" />
     <ClInclude Include="Slime.h" />
+    <ClInclude Include="Tile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

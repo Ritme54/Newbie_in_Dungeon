@@ -1,4 +1,10 @@
-﻿  Monster.cpp
-  Newbie in Dungeon.cpp
-  코드를 생성하고 있습니다...
-  Newbie in Dungeon.vcxproj -> C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\x64\Debug\Newbie in Dungeon.exe
+﻿  Newbie in Dungeon.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(177,26): error C2084: 'std::unique_ptr<Monster,std::default_delete<Monster>> createRandomMonster(const std::vector<std::function<std::unique_ptr<Monster,std::default_delete<Monster>> (void)>,std::allocator<std::function<std::unique_ptr<Monster,std::default_delete<Monster>> (void)>>> &)' 함수에 이미 본문이 있습니다.
+      C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(64,26):
+      'createRandomMonster'의 이전 정의를 참조하십시오.
+  
