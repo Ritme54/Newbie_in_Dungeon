@@ -20,7 +20,7 @@ private:
 
 public:
     Monster(std::string initialName, int initialHp, int initialAttack, int initialDefense, int initialExpGiven);
-    void Attack(Player& targetPlayer); // 플레이어를 공격
+    virtual void Attack(Player& targetPlayer); // 플레이어를 공격
     void TakeDamage(int damageAmount); //플레이어 공격으로 몬스터가 받는 데미지.
     void DisplayStatus() const;//화면에 생성될 몬스터 상태창 언제 얼마나 표시될지는 미정
 

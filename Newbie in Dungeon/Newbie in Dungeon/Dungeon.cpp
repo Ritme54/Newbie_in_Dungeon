@@ -4,7 +4,45 @@
 #include <random>    // std::uniform_int_distribution (타일 랜덤 배치 시 사용)
 #include "Player.h"
 
+
 using namespace std;
+
+
+// --- private 헬퍼 함수 ---
+// 각 층의 타일 레이아웃을 생성하는 함수
+// 이 함수는 생성자나 advanceToNextFloor()에서 호출됩니다.
+void Dungeon::generateFloorLayout(int floorNum)
+{
+	floorLayout.clear(); // 이전 층의 레이아웃 비우기
+	floorLayout.reserve(tilesPerFloor); // 미리 메모리 할당 (선택 사항)
+
+	const auto& currentFloorMonsterGenerators = monsterPools[floorNum - 1];
+	for (int i = 0; i < tilesPerFloor; i++)
+	{
+		if (i == tilesPerFloor - 2)
+		{
+			floorLayout.push_back(make_unique<RestTile>());//마지막-2칸은 반드시 휴식
+		}
+		else if (i == tilesPerFloor - 1)
+		{
+			floorLayout.push_back(make_unique<BossTile>());
+		}
+		else
+		{
+			uniform_int_distribution<int> dist(0, 1); // 0:빈칸, 1:몬스터 
+			if (dist(rng) == 0)
+			{
+				floorLayout.push_back(make_unique<EmptyTile>());
+			}
+			else
+			{
+				floorLayout.push_back(make_unique<MonsterTile>(currentFloorMonsterGenerators));
+			}
+
+		}
+	}
+	std::cout << "던전 " << floorNum << "층의 레이아웃이 생성되었습니다." << std::endl;
+}
 
 Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& pools)
 	: currentFloor(1),
@@ -17,38 +55,7 @@ Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const std::vector<std::vect
 	cout << "던전 생성 :  총" << totalFloors << "층" << tilesPerFloor << "칸" << endl;
 }
 
-void Dungeon::generateFloorLayout(int floorNum)
-{
-	floorLayout.clear(); // 이전 층의 레이아웃 비우기
-	floorLayout.reserve(tilesPerFloor); // 미리 메모리 할당 (선택 사항)
-	
-	const auto& currentFloorMonsterGenerators = monsterPools[floorNum - 1];
-	for (int i = 0; i < tilesPerFloor; i++)
-	{
-		if (i==tilesPerFloor-2)
-		{
-			floorLayout.push_back(make_unique<RestTile>());//마지막-2칸은 반드시 휴식
-		}
-		else if (i==tilesPerFloor-1)
-		{
-			floorLayout.push_back(make_unique<BossTile>());
-		}
-		else
-		{
-			uniform_int_distribution<int> dist(0, 1); // 0:빈칸, 1:몬스터 
-				if (dist(rng) == 0)
-				{
-					floorLayout.push_back(make_unique<EmteyTile>());
-				}
-				else
-				{
-					floorLayout.push_back(make_unique<MonsterTile>(currentFloorMonsterGenerators));
-				}
 
-		}
-	}
-	std::cout << "던전 " << floorNum << "층의 레이아웃이 생성되었습니다." << std::endl;
-}
 
 
 

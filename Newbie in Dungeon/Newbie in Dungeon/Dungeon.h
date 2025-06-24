@@ -8,7 +8,7 @@ class Player;
 class Monster;
 
 #include "Tile.h"
-#include "EmptyTile.h"
+#include "EmptyTile.h" 
 #include "RestTile.h"
 #include "MonsterTile.h"
 

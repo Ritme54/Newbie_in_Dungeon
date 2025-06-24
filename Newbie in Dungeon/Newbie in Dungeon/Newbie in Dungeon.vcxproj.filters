@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\Tile">
       <UniqueIdentifier>{f8797bf9-27e4-4d79-9fd0-68f269367f0e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Monster\Boss">
+      <UniqueIdentifier>{5e848ace-735e-47c5-8c24-b62b9572a44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\monster\Boss">
+      <UniqueIdentifier>{811cd244-e9b2-429f-92b7-2715c789f497}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Newbie in Dungeon.cpp">
@@ -57,6 +63,15 @@
     <ClCompile Include="EmptyTile.cpp">
       <Filter>소스 파일\Tile</Filter>
     </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Big_Rat.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -85,6 +100,15 @@
     </ClInclude>
     <ClInclude Include="EmptyTile.h">
       <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>헤더 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Big_Rat.h">
+      <Filter>헤더 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>헤더 파일\monster</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

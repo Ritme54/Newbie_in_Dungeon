@@ -1,10 +1,56 @@
-﻿  Newbie in Dungeon.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(177,26): error C2084: 'std::unique_ptr<Monster,std::default_delete<Monster>> createRandomMonster(const std::vector<std::function<std::unique_ptr<Monster,std::default_delete<Monster>> (void)>,std::allocator<std::function<std::unique_ptr<Monster,std::default_delete<Monster>> (void)>>> &)' 함수에 이미 본문이 있습니다.
-      C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(64,26):
-      'createRandomMonster'의 이전 정의를 참조하십시오.
+﻿  Dungeon.cpp
+  EmptyTile.cpp
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(27,38): error C2065: 'BossTile': 선언되지 않은 식별자입니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(27,26): error C2672: 'std::make_unique': 일치하는 오버로드된 함수가 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3640,6):
+      'void std::make_unique(_Types ...)'일 수 있습니다.
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(27,38):
+          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3634,57):
+      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(27,38):
+          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3629,57):
+      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(27,38):
+          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
   
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(34,39): error C2065: 'EmptyTile': 선언되지 않은 식별자입니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(34,27): error C2672: 'std::make_unique': 일치하는 오버로드된 함수가 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3640,6):
+      'void std::make_unique(_Types ...)'일 수 있습니다.
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(34,39):
+          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3634,57):
+      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(34,39):
+          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3629,57):
+      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(34,39):
+          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
+  
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(59,2): error C2059: 구문 오류: 'if'
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(60,2): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(60,2): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(63,2): error C2059: 구문 오류: 'else'
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(64,2): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(64,2): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(68,1): error C2059: 구문 오류: '}'
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(68,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(71,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(71,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  GameManager.cpp
+  Monster.cpp
+  MonsterTile.cpp
+  Newbie in Dungeon.cpp
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
+  Player.cpp
+  RestTile.cpp
+  Slime.cpp
+  Tile.cpp
+  코드를 생성하고 있습니다...
