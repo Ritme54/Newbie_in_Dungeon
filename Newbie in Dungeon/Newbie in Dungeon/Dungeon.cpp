@@ -1,10 +1,13 @@
 #include "Dungeon.h"
-#include "Tile.h"
+
 #include <iostream>  // std::cout, std::endl 사용
 #include <algorithm> // std::shuffle (타일 랜덤 배치 시 사용 가능)
 #include <random>    // std::uniform_int_distribution (타일 랜덤 배치 시 사용)
 #include "Player.h"
-
+#include "BossTile.h"
+#include "RestTile.h"
+#include "MonsterTile.h"
+#include "EmptyTile.h"
 
 using namespace std;
 
@@ -48,12 +51,6 @@ void Dungeon::generateFloorLayout(int floorNum)
 }
 
 Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& normalPools, const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& bossPools)
-{
-}
-
-Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const 
-	const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& normalPools,
-	const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& bossPools)
 	: currentFloor(1),
 	totalFloors(totalFloors),
 	tilesPerFloor(tilesPerFloor),
@@ -62,9 +59,13 @@ Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const
 	bossMonsterPools(bossPools),     // <-- bossPools로 초기화
 	bossDefeatedInCurrentFloor(false) // <-- bossDefeatedInCurrentFloor 초기화
 {
+
 	generateFloorLayout(currentFloor);
-	cout << "던전 생성 :  총" << totalFloors << "층" << tilesPerFloor << "칸" << endl;
+	std::cout << "던전 생성 :  총" << totalFloors << "층 " << tilesPerFloor << "칸" << std::endl; // 
+
 }
+
+
 
 
 
@@ -133,7 +134,7 @@ std::unique_ptr<Monster> Dungeon::getRandomMonsterForCurrentFloor()
 
 		return nullptr;
 	}
-	// 몬스터 풀에서 랜덤 인덱스 선택
+	// 일반 몬스터 풀에서 랜덤 인덱스 선택
 	std::uniform_int_distribution<int> dist(0, static_cast<int>(currentFloorNormalMonsterGenerators.size() - 1));
 	int randomIndex = dist(rng); // 전역 rng 사용
 
@@ -144,10 +145,11 @@ std::unique_ptr<Monster> Dungeon::getRandomMonsterForCurrentFloor()
 }
 void Dungeon::setBossDefeated(bool defeated)
 {
+	bossDefeatedInCurrentFloor = defeated;
 }
 bool Dungeon::isBossDefeatedInCurrentFloor() const
 {
-	return false;
+	return bossDefeatedInCurrentFloor; // 
 }
 // 현재 칸의 설명을 반환하는 함수 (디버깅/표시용)
 std::string Dungeon::getCurrentTileDescription() const {

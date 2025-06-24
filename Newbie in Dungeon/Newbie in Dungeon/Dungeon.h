@@ -3,6 +3,7 @@
 #include <memory>       // std::unique_ptr 사용
 #include <functional>   // std::function 사용
 #include <random>       // std::mt19937, std::uniform_int_distribution 사용
+#include "EmptyTile.h"
 
 class Player;
 class Monster;

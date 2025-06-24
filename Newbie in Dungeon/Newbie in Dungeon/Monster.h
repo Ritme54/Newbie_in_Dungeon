@@ -33,7 +33,7 @@ public:
 
     bool IsAlive() const;//현재 살아있는지 확인
     virtual std::string getDefeatMessage() const = 0;
-   virtual ~Monster(); // 소멸자 (가상)
+    virtual ~Monster() = default; // 소멸자 (가상)
 
 
 

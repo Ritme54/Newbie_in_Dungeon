@@ -6,7 +6,7 @@ using namespace std;
 
 WildDogs::WildDogs() : Monster("들개", 50, 15, 8, 30)//수치 수정할것
 {
-	cout << "들개가 튀어나왔다!" << endl;
+	std::cout << "들개가 튀어나왔다!" << std::endl;
 }
 
 std::string WildDogs::getDefeatMessage() const

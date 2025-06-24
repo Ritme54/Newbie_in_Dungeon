@@ -7,12 +7,12 @@ extern mt19937 rng;
 
 MonsterTile::MonsterTile(const std::vector<std::function<std::unique_ptr<Monster>()>>& generators)
 {
-	cout << "임시 초기화 메세지" << endl;
+	std::cout << "임시 초기화 메세지" << std::endl;
 }
 
 void MonsterTile::onEnter(Player& player)
 {
-	cout << "---(와)과 조우했습니다." << endl;
+	std::cout << "---(와)과 조우했습니다." << std::endl;
 
 
 	if (monsterGenerators.empty()) {

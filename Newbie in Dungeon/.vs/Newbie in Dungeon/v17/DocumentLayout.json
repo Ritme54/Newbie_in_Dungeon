@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\",
+  "WorkspaceRootPath": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Tile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Tile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\RestTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\RestTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Dungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\BossTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\BossTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\BossTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\BossTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Big_Rat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Big_Rat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\MonsterTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\MonsterTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,114 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RestTile.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\RestTile.h",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\RestTile.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\RestTile.h",
-              "RelativeToolTip": "Newbie in Dungeon\\RestTile.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T06:42:44.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dungeon.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.cpp",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\Dungeon.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.cpp",
-              "RelativeToolTip": "Newbie in Dungeon\\Dungeon.cpp",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Title": "Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp",
+              "RelativeDocumentMoniker": "Newbie in Dungeon\\Monster.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.cpp",
+              "RelativeToolTip": "Newbie in Dungeon\\Monster.cpp",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwFgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T06:27:49.403Z",
+              "WhenOpened": "2025-06-24T14:51:17.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dungeon.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.h",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\Dungeon.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.h",
-              "RelativeToolTip": "Newbie in Dungeon\\Dungeon.h",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T06:26:55.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Big_Rat.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Big_Rat.cpp",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\Big_Rat.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Big_Rat.cpp",
-              "RelativeToolTip": "Newbie in Dungeon\\Big_Rat.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MonsterTile.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\MonsterTile.cpp",
+              "RelativeDocumentMoniker": "Newbie in Dungeon\\MonsterTile.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\MonsterTile.cpp",
+              "RelativeToolTip": "Newbie in Dungeon\\MonsterTile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T06:23:22.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BossTile.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\BossTile.cpp",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\BossTile.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\BossTile.cpp",
-              "RelativeToolTip": "Newbie in Dungeon\\BossTile.cpp",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T06:11:33.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BossTile.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\BossTile.h",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\BossTile.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\BossTile.h",
-              "RelativeToolTip": "Newbie in Dungeon\\BossTile.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T06:11:28.35Z",
+              "WhenOpened": "2025-06-24T14:51:09.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tile.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Tile.h",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\Tile.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Tile.h",
-              "RelativeToolTip": "Newbie in Dungeon\\Tile.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h",
+              "RelativeDocumentMoniker": "Newbie in Dungeon\\Monster.h",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Monster.h",
+              "RelativeToolTip": "Newbie in Dungeon\\Monster.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T06:07:47.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tile.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Tile.cpp",
-              "RelativeDocumentMoniker": "Newbie in Dungeon\\Tile.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\Newbie in Dungeon\\Tile.cpp",
-              "RelativeToolTip": "Newbie in Dungeon\\Tile.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T06:07:44.075Z",
+              "WhenOpened": "2025-06-24T14:51:02.106Z",
               "EditorCaption": ""
             }
           ]

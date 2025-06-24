@@ -6,7 +6,7 @@ using namespace std;
 
 Big_Rat::Big_Rat() : Monster("큼지막한 쥐", 30, 9, 4, 15)
 {
-	cout << "큼지막한 쥐가 튀어나왔다!" << endl;
+	std::cout << "큼지막한 쥐가 튀어나왔다!" << std::endl;
 }
 
 std::string Big_Rat::getDefeatMessage() const // <-- const 키워드 확인

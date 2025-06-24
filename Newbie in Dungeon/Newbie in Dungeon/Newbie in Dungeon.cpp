@@ -38,7 +38,7 @@ void EndCombat(Player& player, Monster& monster)
 #pragma region 전투 로직
 void startcombat(Player& player, Monster& monster)
 {
-	cout << monster.GetName() << "(과)와 조우했다! " << "   ";
+	std::cout << monster.GetName() << "(과)와 조우했다! " << "   ";
 	while (player.IsAlive() && monster.IsAlive())
 	{
 		player.DisplayStatus();
@@ -53,7 +53,7 @@ void startcombat(Player& player, Monster& monster)
 		{
 			break;
 		}
-		cout << "\n --- 턴 종료 --- " << endl;
+		std::cout << "\n --- 턴 종료 --- " << std::endl;
 	}
 	EndCombat(player, monster);
 	
@@ -82,8 +82,8 @@ return monsterPool[randomindex]();
 
 int main()
 {
-	cout << "당신의 이름을 입력하세요." << endl;
-	cout << "'한/영문자만 입력'" << endl;
+	std::cout << "당신의 이름을 입력하세요." << std::endl;
+	std::cout << "'한/영문자만 입력'" << std::endl;
 	string name;
 	getline(cin, name);
 	
@@ -139,7 +139,7 @@ int main()
 
 	while (user.IsAlive() && currentFloor <= totalFloors)
 	{
-		cout << "\n---던전" << currentFloor << "층 ---" << endl;
+		std::cout << "\n---던전" << currentFloor << "층 ---" << std::endl;
 		const auto& currentFloorPool = dungenMonsterPools[currentFloor - 1];
 		if (!currentFloorPool.empty())
 		{

@@ -3,6 +3,8 @@
 #include <string>
 #include "Player.h"
 
+
+
  
 Monster::Monster(string initialName, int initialHp, int initialAttack, int initialDefense, int initialExpGiven) 
 	: name(initialName),       // 이름 초기화
@@ -24,7 +26,7 @@ Monster::Monster(string initialName, int initialHp, int initialAttack, int initi
 void Monster::Attack(Player& targetPlayer)
 {
 	if (!IsAlive()) return;
-	cout << GetName << "(이)가" << targetPlayer.GetName() << "(을)를 공격합니다." << endl;
+	std::cout << GetName() << "(이)가" << targetPlayer.GetName() << "(을)를 공격합니다." << std::endl;
 	int damage = attack - targetPlayer.GetDefense();
 	if (damage < 0) damage = 0;
 	targetPlayer.TakeDamage(damage);
@@ -34,13 +36,13 @@ void Monster::TakeDamage(int damageAmount)
 {
 	if (!IsAlive()) return;
 	hp -= damageAmount;
-	cout << GetName << "(은)는" << damageAmount << "의 피해를 입었습니다." << endl;
+	std::cout << GetName() << "(은)는" << damageAmount << "의 피해를 입었습니다." << std::endl;
 	
 	if (hp <= 0)
 	{
 		hp = 0;
 		std::cout << "체력: " << hp << "/" << maxHp << std::endl;
-		cout << name << "(을)를 쓰러졌습니다..." << endl;
+		std::cout << name << "(을)를 쓰러졌습니다..." << std::endl;
 	}
 	else
 	{
@@ -50,13 +52,13 @@ void Monster::TakeDamage(int damageAmount)
 }
 void Monster::DisplayStatus() const
 {
-	{
+	
 		std::cout << "--- " << name << "의 상태 ---" << std::endl;
 		std::cout << "체력: " << hp << "/" << maxHp << std::endl;
 		std::cout << "공격력: " << attack << std::endl;
 		std::cout << "방어력: " << defense << std::endl;
 		std::cout << "-------------------------" << std::endl;
-	}
+	
 }
 #pragma endregion
 
@@ -94,12 +96,8 @@ std::string Monster::GetName() const
 bool Monster::IsAlive() const
 {
 	return hp > 0;
-	return true;
 }
 
-Monster::~Monster()
-{
-}
 
 
 #pragma endregion

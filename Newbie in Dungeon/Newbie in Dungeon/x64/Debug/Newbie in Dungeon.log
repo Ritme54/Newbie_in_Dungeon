@@ -1,67 +1,41 @@
 ﻿  Big_Rat.cpp
+  BlackSlime.cpp
   BossMonster.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Big_Rat.cpp(12,22): error C2723: 'Big_Rat::getDefeatMessage': 함수 정의에는 'override' 지정자를 사용할 수 없습니다.
+  BossTile.cpp
   Dungeon.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(28,38): error C2065: 'BossTile': 선언되지 않은 식별자입니다.
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(28,26): error C2672: 'std::make_unique': 일치하는 오버로드된 함수가 없습니다.
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3604,6):
-      'void std::make_unique(_Types ...)'일 수 있습니다.
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(28,38):
-          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3598,57):
-      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(28,38):
-          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3593,57):
-      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(28,38):
-          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-  
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(35,39): error C2065: 'EmptyTile': 선언되지 않은 식별자입니다.
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(35,27): error C2672: 'std::make_unique': 일치하는 오버로드된 함수가 없습니다.
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3604,6):
-      'void std::make_unique(_Types ...)'일 수 있습니다.
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(35,39):
-          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3598,57):
-      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(35,39):
-          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3593,57):
-      또는       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Dungeon.cpp(35,39):
-          'std::make_unique': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-  
   EmptyTile.cpp
   GameManager.cpp
   Goblin.cpp
+  GoblinWarrior.cpp
+  Kig_Rat.cpp
   Monster.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,10): error C3867: 'Monster::GetName': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
-      C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,10):
-      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,2):
-          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
-  
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,10): error C3867: 'Monster::GetName': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
-      C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,10):
-      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-          C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,2):
-          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
-  
   MonsterTile.cpp
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,10): error C3867: 'Monster::GetName': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+      C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,10):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,2):
+          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
+  
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,10): error C3867: 'Monster::GetName': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+      C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,10):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,2):
+          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
+  
   Newbie in Dungeon.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
+C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
   Player.cpp
   RestTile.cpp
   Slime.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Slime.cpp(12,9): error C2600: 'Slime::~Slime': 컴파일러 생성 특수 멤버 함수를 정의할 수 없습니다. 먼저 클래스에 선언해야 합니다.
   Snake.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Snake.cpp(12,9): error C2600: 'Snake::~Snake': 컴파일러 생성 특수 멤버 함수를 정의할 수 없습니다. 먼저 클래스에 선언해야 합니다.
   Tile.cpp
+  VenomousSnake.cpp
+  WildDogLeader.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
   WildDogs.cpp
-C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\WildDogs.cpp(12,12): error C2600: 'WildDogs::~WildDogs': 컴파일러 생성 특수 멤버 함수를 정의할 수 없습니다. 먼저 클래스에 선언해야 합니다.
   코드를 생성하고 있습니다...

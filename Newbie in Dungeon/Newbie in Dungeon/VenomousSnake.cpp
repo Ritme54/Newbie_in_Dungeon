@@ -5,7 +5,7 @@ using namespace std;
 
 VenomousSnake::VenomousSnake() : BossMonster("독사", 80, 25, 15, 100) // 수치 수정할 것
 {
-	cout << "독사가 나타났습니다!" << endl;
+	std::cout << "독사가 나타났습니다!" << std::endl;
 }
 
 

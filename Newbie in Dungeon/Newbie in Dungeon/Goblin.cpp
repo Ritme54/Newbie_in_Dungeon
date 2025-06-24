@@ -7,7 +7,7 @@ using namespace std;
 
 Goblin::Goblin() : Monster("고블린",10,10,10,10)//이후 수정
 {
-	cout << "고블린이 어슬렁거리며 나타났다!" << endl;
+	std::cout << "고블린이 어슬렁거리며 나타났다!" << std::endl;
 
 }
 

@@ -6,7 +6,7 @@ using namespace std;
 
 Slime::Slime() : Monster("녹색 슬라임", 20, 7, 3, 10)
 {
-	cout << "녹색 슬라임이 나타났다." << endl;
+	std::cout << "녹색 슬라임이 나타났다." << std::endl;
 }
 
 std::string Slime::getDefeatMessage() const

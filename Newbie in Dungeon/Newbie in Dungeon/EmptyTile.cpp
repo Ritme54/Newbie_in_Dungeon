@@ -3,14 +3,12 @@
 
 using namespace std;
 
-
-void EmteyTile::onEnter(Player& player)
+void EmptyTile::onEnter(Player& player)
 {
-	cout << "아무 일도 일어나지 않았다..." << endl;
-
+	std::cout << "아무 일도 일어나지 않았다..." << std::endl;
 }
 
-std::string EmteyTile::getDescription() const
+std::string EmptyTile::getDescription() const
 {
 	return std::string("빈 칸");
 }

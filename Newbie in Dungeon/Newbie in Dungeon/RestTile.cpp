@@ -6,8 +6,8 @@
 
 void RestTile::onEnter(Player& player)
 {
-	cout << "모닥불의 흔적이다." << endl;
-	cout << "모닥불을 피울 수 있을것 같다." << endl;
+	std::cout << "모닥불의 흔적이다." << std::endl;
+	std::cout << "모닥불을 피울 수 있을것 같다." << std::endl;
     // TODO: 플레이어 체력 회복 로직
    // 예시: 플레이어 최대 체력의 절반만큼 회복
    // Player 클래스에 Heal(int amount) 함수가 있다고 가정

@@ -5,7 +5,7 @@ using namespace std;
 
 GoblinWarrior::GoblinWarrior() : BossMonster("고블린 전사", 80, 15, 8, 40) // 수치 수정할 것
 {
-	cout << "고블린 전사가 나타났습니다!" << endl;
+	std::cout << "고블린 전사가 나타났습니다!" << std::endl;
 
 }
 

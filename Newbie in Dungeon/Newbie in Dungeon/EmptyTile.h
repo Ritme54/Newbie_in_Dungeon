@@ -3,7 +3,7 @@
 
 class Player;
 
-class EmteyTile : public Tile
+class EmptyTile : public Tile
 {
 	void onEnter(Player& player) override;
 

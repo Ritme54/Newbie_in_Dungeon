@@ -5,7 +5,7 @@ using namespace std;
 
 BlackSlime::BlackSlime() : BossMonster("블랙 슬라임",10,10,10,10)//이후 수정
 {
-	cout << "블랙 슬라임이 당신을 눈치체고 다가옵니다." << endl;
+	std::cout << "블랙 슬라임이 당신을 눈치체고 다가옵니다." << std::endl;
 }
 
 void BlackSlime::activateSpecialPhase()
