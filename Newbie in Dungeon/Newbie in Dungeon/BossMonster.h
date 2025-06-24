@@ -1,6 +1,8 @@
-// BossMonster.h
+
 #pragma once
 #include "Monster.h" // Monster 클래스를 상속받으므로 포함
+#include <string>
+
 
 class BossMonster : public Monster {
 public:

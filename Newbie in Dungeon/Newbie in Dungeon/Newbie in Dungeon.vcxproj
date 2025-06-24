@@ -128,10 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Big_Rat.cpp" />
+    <ClCompile Include="BlackSlime.cpp" />
     <ClCompile Include="BossMonster.cpp" />
+    <ClCompile Include="BossTile.cpp" />
     <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="EmptyTile.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Goblin.cpp" />
+    <ClCompile Include="GoblinWarrior.cpp" />
+    <ClCompile Include="Kig_Rat.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterTile.cpp" />
     <ClCompile Include="Newbie in Dungeon.cpp" />
@@ -140,20 +145,35 @@
     <ClCompile Include="Slime.cpp" />
     <ClCompile Include="Snake.cpp" />
     <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="VenomousSnake.cpp" />
+    <ClCompile Include="WildDogLeader.cpp" />
+    <ClCompile Include="WildDogs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Big_Rat.h" />
+    <ClInclude Include="BlackSlime.h" />
     <ClInclude Include="BossMonster.h" />
+    <ClInclude Include="BossTile.h" />
     <ClInclude Include="Dungeon.h" />
     <ClInclude Include="EmptyTile.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Goblin.h" />
+    <ClInclude Include="GoblinWarrior.h" />
+    <ClInclude Include="Kig_Rat.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterTile.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="RestTile.h" />
     <ClInclude Include="Slime.h" />
     <ClInclude Include="Snake.h" />
     <ClInclude Include="Tile.h" />
+    <ClInclude Include="VenomousSnake.h" />
+    <ClInclude Include="WildDogLeader.h" />
+    <ClInclude Include="WildDogs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Newbie in Dungeon.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
 #include "Dungeon.h"
+#include "Tile.h"
 #include <iostream>  // std::cout, std::endl 사용
 #include <algorithm> // std::shuffle (타일 랜덤 배치 시 사용 가능)
 #include <random>    // std::uniform_int_distribution (타일 랜덤 배치 시 사용)
@@ -16,7 +17,8 @@ void Dungeon::generateFloorLayout(int floorNum)
 	floorLayout.clear(); // 이전 층의 레이아웃 비우기
 	floorLayout.reserve(tilesPerFloor); // 미리 메모리 할당 (선택 사항)
 
-	const auto& currentFloorMonsterGenerators = monsterPools[floorNum - 1];
+	const auto& currentFloorNormalMonsterGenerators = normalMonsterPools[floorNum - 1];
+	const auto& currentFloorBossMonsterGenerators = bossMonsterPools[floorNum - 1];
 	for (int i = 0; i < tilesPerFloor; i++)
 	{
 		if (i == tilesPerFloor - 2)
@@ -25,18 +27,19 @@ void Dungeon::generateFloorLayout(int floorNum)
 		}
 		else if (i == tilesPerFloor - 1)
 		{
-			floorLayout.push_back(make_unique<BossTile>());
+			floorLayout.push_back(std::make_unique<BossTile>(currentFloorBossMonsterGenerators, *this));
 		}
 		else
 		{
 			uniform_int_distribution<int> dist(0, 1); // 0:빈칸, 1:몬스터 
 			if (dist(rng) == 0)
 			{
-				floorLayout.push_back(make_unique<EmptyTile>());
+				floorLayout.push_back(std::make_unique<EmptyTile>());
 			}
+
 			else
 			{
-				floorLayout.push_back(make_unique<MonsterTile>(currentFloorMonsterGenerators));
+				floorLayout.push_back(make_unique<MonsterTile>(currentFloorNormalMonsterGenerators));
 			}
 
 		}
@@ -44,12 +47,20 @@ void Dungeon::generateFloorLayout(int floorNum)
 	std::cout << "던전 " << floorNum << "층의 레이아웃이 생성되었습니다." << std::endl;
 }
 
-Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& pools)
+Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& normalPools, const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& bossPools)
+{
+}
+
+Dungeon::Dungeon(int totalFloors, int tilesPerFloor, const 
+	const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& normalPools,
+	const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& bossPools)
 	: currentFloor(1),
 	totalFloors(totalFloors),
 	tilesPerFloor(tilesPerFloor),
 	currentTileIndex(0),
-	monsterPools(pools)
+	normalMonsterPools(normalPools), // <-- normalPools로 초기화
+	bossMonsterPools(bossPools),     // <-- bossPools로 초기화
+	bossDefeatedInCurrentFloor(false) // <-- bossDefeatedInCurrentFloor 초기화
 {
 	generateFloorLayout(currentFloor);
 	cout << "던전 생성 :  총" << totalFloors << "층" << tilesPerFloor << "칸" << endl;
@@ -86,7 +97,7 @@ void Dungeon::enterCurrentTile(Player& player)
 
 bool Dungeon::isFloorCompleted() const
 {
-	return currentTileIndex >= tilesPerFloor - 1;
+	return currentTileIndex >= tilesPerFloor - 1 && bossDefeatedInCurrentFloor;
 }
 
 bool Dungeon::advanceToNextFloor()
@@ -94,6 +105,8 @@ bool Dungeon::advanceToNextFloor()
 	if (currentFloor < totalFloors) {
 		currentFloor++;       // 층 증가
 		currentTileIndex = 0; // 칸 인덱스 초기화
+		bossDefeatedInCurrentFloor = false; //
+
 		generateFloorLayout(currentFloor); // 다음 층 레이아웃 생성
 		std::cout << "다음 층으로 이동합니다: " << currentFloor << "층." << std::endl;
 		return true; // 다음 층으로 진행 성공
@@ -111,23 +124,30 @@ bool Dungeon::isDungeonCompleted() const
 
 std::unique_ptr<Monster> Dungeon::getRandomMonsterForCurrentFloor()
 {
-	const auto& currentFloorMonsterGenerators = monsterPools[currentFloor - 1];
-	if (currentFloorMonsterGenerators.empty()) 
+	const auto& currentFloorNormalMonsterGenerators = normalMonsterPools[currentFloor - 1];;
+	if (currentFloorNormalMonsterGenerators.empty()) 
 	{
 
-		std::cout << "경고: 현재 층(" << currentFloor << "층)의 몬스터 풀이 비어있습니다." << std::endl;
+		std::cout << "경고: 현재 층(" << currentFloor << "층)의 일반 몬스터 풀이 비어있습니다." << std::endl;
 
 
 		return nullptr;
 	}
 	// 몬스터 풀에서 랜덤 인덱스 선택
-	std::uniform_int_distribution<int> dist(0, static_cast<int>(currentFloorMonsterGenerators.size() - 1));
+	std::uniform_int_distribution<int> dist(0, static_cast<int>(currentFloorNormalMonsterGenerators.size() - 1));
 	int randomIndex = dist(rng); // 전역 rng 사용
 
 	// 선택된 람다 함수를 호출하여 몬스터 생성
-	return currentFloorMonsterGenerators[randomIndex]();
+	return currentFloorNormalMonsterGenerators[randomIndex]();
 
 
+}
+void Dungeon::setBossDefeated(bool defeated)
+{
+}
+bool Dungeon::isBossDefeatedInCurrentFloor() const
+{
+	return false;
 }
 // 현재 칸의 설명을 반환하는 함수 (디버깅/표시용)
 std::string Dungeon::getCurrentTileDescription() const {

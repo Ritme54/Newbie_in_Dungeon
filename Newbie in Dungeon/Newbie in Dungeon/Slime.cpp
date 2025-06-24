@@ -4,16 +4,15 @@
 
 using namespace std;
 
-Slime::Slime() : Monster("녹색 슬라임", 30, 6, 3, 10)
+Slime::Slime() : Monster("녹색 슬라임", 20, 7, 3, 10)
 {
 	cout << "녹색 슬라임이 나타났다." << endl;
 }
 
-Slime::~Slime()
+std::string Slime::getDefeatMessage() const
 {
-	if (int hp=0)
-	{
-		cout << "녹색 슬라임을 처치했다!" << endl;
-	}
+	return GetName() + "(이)가 젤리처럼 녹아내리며 쓰러졌습니다!";
 }
+
+
 

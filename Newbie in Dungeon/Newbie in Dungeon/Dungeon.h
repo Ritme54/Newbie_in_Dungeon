@@ -11,6 +11,8 @@ class Monster;
 #include "EmptyTile.h" 
 #include "RestTile.h"
 #include "MonsterTile.h"
+#include "BossTile.h"
+
 
 extern std::mt19937 rng;
 
@@ -25,9 +27,13 @@ private:
     // 현재 층의 칸 배치를 저장하는 벡터 (다형성을 위해 Tile* 포인터를 unique_ptr로 관리)
     std::vector<std::unique_ptr<Tile>> floorLayout;
 
-    // 각 층별 몬스터 생성 람다 함수 풀
-    // Dungeon 클래스가 몬스터 풀을 직접 관리합니다.
-    std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>> monsterPools;
+    // 각 층별 일반 몬스터 생성 람다 함수 풀
+    std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>> normalMonsterPools;
+    // 각 층별 보스 몬스터 생성 람다 함수 풀
+    std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>> bossMonsterPools;
+
+    bool bossDefeatedInCurrentFloor;
+
 
     // --- private 헬퍼 함수 ---
     // 각 층의 타일 레이아웃을 생성하는 함수
@@ -36,8 +42,10 @@ private:
 
 public:
     Dungeon(int totalFloors, int tilesPerFloor,
-        const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& pools);
+        const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& normalPools,
+        const std::vector<std::vector<std::function<std::unique_ptr<Monster>()>>>& bossPools);
     ~Dungeon() = default;
+    
 
 #pragma region 플레이어 이동 함수
     // --- 플레이어 이동 및 칸 이벤트 관련 함수 ---
@@ -67,6 +75,9 @@ public:
     int getCurrentTileIndex() const { return currentTileIndex; }
     int getTilesPerFloor() const { return tilesPerFloor; }
     // 현재 칸의 설명을 반환하는 함수 (디버깅/표시용)
+    void setBossDefeated(bool defeated); // <-- 이 줄 추가: 보스 처치 상태 설정
+    bool isBossDefeatedInCurrentFloor() const; // <-- 이 줄 추가: 보스 처치 여부 Getter
+
     std::string getCurrentTileDescription() const;
 #pragma endregion
 

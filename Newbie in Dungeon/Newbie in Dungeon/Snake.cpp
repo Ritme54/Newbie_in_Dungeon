@@ -4,12 +4,12 @@
 
 using namespace std;
 
-Snake::Snake() : Monster("구렁이", 10,10,10,10)//수치 수정할것
+Snake::Snake() : Monster("구렁이", 35,15,6,25)//수치 수정할것
 {
 	cout << "구렁이가 바위틈에서 튀어나왔다!" << endl;
 }
 
-Snake::~Snake()
+std::string Snake::getDefeatMessage() const 
 {
-	cout << "구렁이를 처치했다!" << endl;
+	return GetName() + "구렁이가 쓰러졌습니다!";
 }

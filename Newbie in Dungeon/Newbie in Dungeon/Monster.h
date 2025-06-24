@@ -32,8 +32,10 @@ public:
     std::string GetName() const; // 몬스터 이름을 반환
 
     bool IsAlive() const;//현재 살아있는지 확인
+    virtual std::string getDefeatMessage() const = 0;
+   virtual ~Monster(); // 소멸자 (가상)
 
-   virtual ~Monster();
+
 
 
 

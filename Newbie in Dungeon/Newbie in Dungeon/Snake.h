@@ -5,7 +5,6 @@ class Snake : public Monster
 
 public:
 	Snake();
-
-	virtual ~Snake() override;
+	std::string getDefeatMessage() const override;
 };
 

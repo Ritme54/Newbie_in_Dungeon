@@ -63,14 +63,38 @@
     <ClCompile Include="EmptyTile.cpp">
       <Filter>소스 파일\Tile</Filter>
     </ClCompile>
-    <ClCompile Include="BossMonster.cpp">
-      <Filter>소스 파일\Monster</Filter>
-    </ClCompile>
     <ClCompile Include="Big_Rat.cpp">
       <Filter>소스 파일\Monster</Filter>
     </ClCompile>
     <ClCompile Include="Snake.cpp">
       <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="WildDogs.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackSlime.cpp">
+      <Filter>소스 파일\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>소스 파일\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="WildDogLeader.cpp">
+      <Filter>소스 파일\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="VenomousSnake.cpp">
+      <Filter>소스 파일\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Kig_Rat.cpp">
+      <Filter>소스 파일\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GoblinWarrior.cpp">
+      <Filter>소스 파일\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTile.cpp">
+      <Filter>소스 파일\Tile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,14 +125,46 @@
     <ClInclude Include="EmptyTile.h">
       <Filter>헤더 파일\Tile</Filter>
     </ClInclude>
-    <ClInclude Include="BossMonster.h">
-      <Filter>헤더 파일\monster</Filter>
-    </ClInclude>
     <ClInclude Include="Big_Rat.h">
       <Filter>헤더 파일\monster</Filter>
     </ClInclude>
     <ClInclude Include="Snake.h">
       <Filter>헤더 파일\monster</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WildDogs.h">
+      <Filter>헤더 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>헤더 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackSlime.h">
+      <Filter>헤더 파일\monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>헤더 파일\monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="WildDogLeader.h">
+      <Filter>헤더 파일\monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="VenomousSnake.h">
+      <Filter>헤더 파일\monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Kig_Rat.h">
+      <Filter>헤더 파일\monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinWarrior.h">
+      <Filter>헤더 파일\monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTile.h">
+      <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Newbie in Dungeon.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

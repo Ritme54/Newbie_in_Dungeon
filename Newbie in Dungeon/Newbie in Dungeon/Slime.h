@@ -4,15 +4,9 @@
 #include "Monster.h"
 class Slime : public Monster
 {
-private:
-	
-
-
-
 public:
 	Slime();
 
-	virtual ~Slime() override;
-
+	std::string getDefeatMessage() const override;
 };
 

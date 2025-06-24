@@ -4,7 +4,7 @@
 #include "Player.h"
 
  
-Monster::Monster(string initialName, int initialHp, int initialAttack, int initialDefense, int initialExpGiven)
+Monster::Monster(string initialName, int initialHp, int initialAttack, int initialDefense, int initialExpGiven) 
 	: name(initialName),       // 이름 초기화
 	hp(initialHp),           // 현재 체력 초기화
 	maxHp(initialHp),        // 최대 체력 초기화 (보통 초기 체력과 같게 시작)
@@ -24,7 +24,7 @@ Monster::Monster(string initialName, int initialHp, int initialAttack, int initi
 void Monster::Attack(Player& targetPlayer)
 {
 	if (!IsAlive()) return;
-	cout << name << "(이)가" << targetPlayer.GetName() << "(을)를 공격합니다." << endl;
+	cout << GetName << "(이)가" << targetPlayer.GetName() << "(을)를 공격합니다." << endl;
 	int damage = attack - targetPlayer.GetDefense();
 	if (damage < 0) damage = 0;
 	targetPlayer.TakeDamage(damage);
@@ -34,7 +34,7 @@ void Monster::TakeDamage(int damageAmount)
 {
 	if (!IsAlive()) return;
 	hp -= damageAmount;
-	cout << name << "(은)는" << damageAmount << "의 피해를 입었습니다." << endl;
+	cout << GetName << "(은)는" << damageAmount << "의 피해를 입었습니다." << endl;
 	
 	if (hp <= 0)
 	{
@@ -99,7 +99,6 @@ bool Monster::IsAlive() const
 
 Monster::~Monster()
 {
-
 }
 
 
