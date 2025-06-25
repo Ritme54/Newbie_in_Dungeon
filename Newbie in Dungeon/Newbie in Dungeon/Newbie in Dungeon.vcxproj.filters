@@ -19,9 +19,6 @@
     <Filter Include="헤더 파일\monster">
       <UniqueIdentifier>{dabf37c2-144d-4011-acf7-3b0bff5e5b83}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\Tile">
-      <UniqueIdentifier>{e022fec6-bdb2-48d7-bd76-3e34410d67fc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Tile">
       <UniqueIdentifier>{f8797bf9-27e4-4d79-9fd0-68f269367f0e}</UniqueIdentifier>
     </Filter>
@@ -30,6 +27,15 @@
     </Filter>
     <Filter Include="헤더 파일\monster\Boss">
       <UniqueIdentifier>{811cd244-e9b2-429f-92b7-2715c789f497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\게임 진행 메니저">
+      <UniqueIdentifier>{bff3d937-5f48-46b3-87d8-091478142cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tile">
+      <UniqueIdentifier>{e022fec6-bdb2-48d7-bd76-3e34410d67fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\게임 진행 매니저">
+      <UniqueIdentifier>{7de8f974-fad7-4357-b49a-d6e1de22500d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -53,12 +59,6 @@
     </ClCompile>
     <ClCompile Include="RestTile.cpp">
       <Filter>소스 파일\Tile</Filter>
-    </ClCompile>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Dungeon.cpp">
-      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="EmptyTile.cpp">
       <Filter>소스 파일\Tile</Filter>
@@ -96,6 +96,18 @@
     <ClCompile Include="BossTile.cpp">
       <Filter>소스 파일\Tile</Filter>
     </ClCompile>
+    <ClCompile Include="FullHealTile.cpp">
+      <Filter>소스 파일\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>소스 파일\게임 진행 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\게임 진행 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -116,12 +128,6 @@
     <ClInclude Include="RestTile.h">
       <Filter>헤더 파일\Tile</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Dungeon.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="EmptyTile.h">
       <Filter>헤더 파일\Tile</Filter>
     </ClInclude>
@@ -135,9 +141,6 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="WildDogs.h">
-      <Filter>헤더 파일\monster</Filter>
-    </ClInclude>
-    <ClInclude Include="Goblin.h">
       <Filter>헤더 파일\monster</Filter>
     </ClInclude>
     <ClInclude Include="BlackSlime.h">
@@ -160,6 +163,21 @@
     </ClInclude>
     <ClInclude Include="BossTile.h">
       <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="FullHealTile.h">
+      <Filter>헤더 파일\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>헤더 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\게임 진행 메니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>헤더 파일\게임 진행 메니저</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -26,7 +26,7 @@ void Dungeon::generateFloorLayout(int floorNum)
 	{
 		if (i == tilesPerFloor - 2)
 		{
-			floorLayout.push_back(make_unique<RestTile>());//마지막-2칸은 반드시 휴식
+			floorLayout.push_back(std::make_unique<FullHealTile>());//마지막-2칸은 반드시 휴식
 		}
 		else if (i == tilesPerFloor - 1)
 		{
