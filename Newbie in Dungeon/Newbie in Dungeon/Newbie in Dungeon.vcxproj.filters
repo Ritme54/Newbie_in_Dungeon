@@ -43,6 +43,18 @@
     <Filter Include="헤더 파일\게임 진행 메니저\Ability">
       <UniqueIdentifier>{865f2430-f4a5-4894-a932-5e1e7c436357}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\게임 진행 메니저\Ability\플레이어 특수능력">
+      <UniqueIdentifier>{be72300c-c1be-420d-afed-01ea758f0def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\게임 진행 매니저\Ability\플레이어 특수능력">
+      <UniqueIdentifier>{f79658bb-d27b-42a1-a333-4978a98937c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\게임 진행 메니저\Ability\보스 특능">
+      <UniqueIdentifier>{728758b8-0c03-4072-91c9-ccee826d3988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\게임 진행 매니저\Ability\보스 특능">
+      <UniqueIdentifier>{c28b4801-d4b4-46f0-af5d-8ef106df74d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Newbie in Dungeon.cpp">
@@ -111,17 +123,35 @@
     <ClCompile Include="GameManager.cpp">
       <Filter>소스 파일\게임 진행 매니저</Filter>
     </ClCompile>
-    <ClCompile Include="SpecialAbility.cpp">
-      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
-    </ClCompile>
-    <ClCompile Include="StunAbility.cpp">
-      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
+    <ClCompile Include="BleedAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\플레이어 특수능력</Filter>
     </ClCompile>
     <ClCompile Include="ArmorPierceAttackAbility.cpp">
-      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
+      <Filter>소스 파일\게임 진행 매니저\Ability\플레이어 특수능력</Filter>
     </ClCompile>
-    <ClCompile Include="BleedAbility.cpp">
-      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
+    <ClCompile Include="PlayerSpecialAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\플레이어 특수능력</Filter>
+    </ClCompile>
+    <ClCompile Include="StunAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\플레이어 특수능력</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSpecialAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\보스 특능</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBoss5f.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\보스 특능</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBoss4f.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\보스 특능</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBoss3f.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\보스 특능</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBoss2f.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\보스 특능</Filter>
+    </ClCompile>
+    <ClCompile Include="SpBoss1f.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability\보스 특능</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -191,17 +221,35 @@
     <ClInclude Include="Dungeon.h">
       <Filter>헤더 파일\게임 진행 메니저</Filter>
     </ClInclude>
-    <ClInclude Include="SpecialAbility.h">
-      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
+    <ClInclude Include="PlayerSpecialAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\플레이어 특수능력</Filter>
     </ClInclude>
     <ClInclude Include="StunAbility.h">
-      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
-    </ClInclude>
-    <ClInclude Include="ArmorPierceAttackAbility.h">
-      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
+      <Filter>헤더 파일\게임 진행 메니저\Ability\플레이어 특수능력</Filter>
     </ClInclude>
     <ClInclude Include="BleedAbility.h">
-      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
+      <Filter>헤더 파일\게임 진행 메니저\Ability\플레이어 특수능력</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorPierceAttackAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\플레이어 특수능력</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSpecialAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\보스 특능</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBoss1f.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\보스 특능</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBoss2f.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\보스 특능</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBoss3f.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\보스 특능</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBoss4f.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\보스 특능</Filter>
+    </ClInclude>
+    <ClInclude Include="SpBoss5f.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability\보스 특능</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

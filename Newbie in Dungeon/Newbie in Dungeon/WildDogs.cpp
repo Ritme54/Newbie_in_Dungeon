@@ -1,6 +1,8 @@
 #include "WildDogs.h"
 #include <iostream>
 #include "Monster.h"
+#include "Player.h"
+
 
 using namespace std;
 
@@ -14,3 +16,40 @@ std::string WildDogs::getDefeatMessage() const
 	return GetName() + "들개가 비명을 지르며 쓰러졌습니다!";
 }
 
+// 강공격 구현
+void WildDogs::StrongAttack(Player& targetPlayer)
+{ // override 키워드 추가
+    // 들개 고유의 강공격 메시지
+    std::cout << GetName() << " (이)가 몸을 부딪치면서 물었다!" << std::endl;
+
+    // 들개 고유의 강공격 수치 (예: 기본 공격력의 2배)
+    int damage = static_cast<int>(GetAttack() * 2.0) - targetPlayer.GetDefense();
+    if (damage < 0) damage = 0;
+    targetPlayer.TakeDamage(damage);
+}
+
+// 방어 구현
+void WildDogs::Defend()
+{ // override 키워드 추가
+    // 들개 고유의 방어 메시지
+    std::cout << GetName() << "에게 약하게 때렸다..." << std::endl;
+
+    // Monster::Defend()의 공통 로직 호출
+    // isDefending = true; // Monster::Defend()에서 처리되므로 여기서는 직접 설정하지 않습니다.
+    Monster::Defend(); // Monster의 Defend 함수를 명시적으로 호출
+}
+
+std::string WildDogs::GetActionPredictionMessage() const {
+    switch (nextAction) { // nextAction은 Monster의 protected 멤버이므로 접근 가능
+    case MonsterAction::ATTACK:
+        return GetName() + " (이)가 주변을 서성거립니다!";
+    case MonsterAction::DEFEND:
+        return GetName() + " (이)가 몸을 낮추며 경계합니다!";
+    case MonsterAction::STRONG_ATTACK:
+        return GetName() + " (이)가 도약하며 달려듭니다!";
+    case MonsterAction::NONE:
+        return GetName() + " (이)가 멍하니 있습니다.";
+    default:
+        return Monster::GetActionPredictionMessage(); // 기본 Monster 클래스의 메시지 사용 (혹시 모를 경우)
+    }
+}

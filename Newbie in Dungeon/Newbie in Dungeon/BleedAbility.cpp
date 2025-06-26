@@ -5,7 +5,7 @@
 #include <iostream>
 
 BleedAbility::BleedAbility()
-    : SpecialAbility("출혈", "적에게 턴당 지속 피해를 입힙니다.", 4) {
+    : PlayerSpecialAbility("출혈", "적에게 턴당 지속 피해를 입힙니다.", 4) {
 } // 이름, 설명, 쿨다운
 
 void BleedAbility::use(Player& user, Monster& target) {

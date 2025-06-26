@@ -1,8 +1,8 @@
 // BleedAbility.h
 #pragma once
-#include "SpecialAbility.h"
+#include "PlayerSpecialAbility.h"
 
-class BleedAbility : public SpecialAbility {
+class BleedAbility : public PlayerSpecialAbility {
 public:
     BleedAbility();
     void use(Player& user, Monster& target) override;

@@ -5,7 +5,7 @@
 #include <iostream>
 
 StunAbility::StunAbility()
-    : SpecialAbility("확정 기절", "적을 기절시켜 다음 턴을 스킵시킵니다.", 5) {
+    : PlayerSpecialAbility("확정 기절", "적을 기절시켜 다음 턴을 스킵시킵니다.", 5) {
 } // 이름, 설명, 쿨다운
 
 void StunAbility::use(Player& user, Monster& target) {

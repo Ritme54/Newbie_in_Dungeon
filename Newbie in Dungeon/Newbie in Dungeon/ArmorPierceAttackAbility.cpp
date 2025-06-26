@@ -5,7 +5,7 @@
 #include <iostream>
 
 ArmorPierceAttackAbility::ArmorPierceAttackAbility()
-    : SpecialAbility("방어무시 강공격", "적의 방어를 무시하고 강력한 피해를 입힙니다.", 3) {
+    : PlayerSpecialAbility("방어무시 강공격", "적의 방어를 무시하고 강력한 피해를 입힙니다.", 3) {
 } // 이름, 설명, 쿨다운
 
 void ArmorPierceAttackAbility::use(Player& user, Monster& target) {

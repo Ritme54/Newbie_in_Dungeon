@@ -1,8 +1,8 @@
 // StunAbility.h
 #pragma once
-#include "SpecialAbility.h"
+#include "PlayerSpecialAbility.h"
 
-class StunAbility : public SpecialAbility {
+class StunAbility : public PlayerSpecialAbility {
 public:
     StunAbility();
     // SpecialAbility의 use 함수 재정의

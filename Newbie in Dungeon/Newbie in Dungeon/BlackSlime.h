@@ -1,5 +1,7 @@
 #pragma once
 #include "BossMonster.h"
+
+
 class BlackSlime : public BossMonster
 {
 public:

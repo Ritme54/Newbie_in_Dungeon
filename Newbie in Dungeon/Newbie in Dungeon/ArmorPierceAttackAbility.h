@@ -1,8 +1,8 @@
 // ArmorPierceAttackAbility.h
 #pragma once
-#include "SpecialAbility.h"
+#include "PlayerSpecialAbility.h"
 
-class ArmorPierceAttackAbility : public SpecialAbility {
+class ArmorPierceAttackAbility : public PlayerSpecialAbility {
 public:
     ArmorPierceAttackAbility();
     void use(Player& user, Monster& target) override;

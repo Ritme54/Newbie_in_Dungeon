@@ -132,6 +132,7 @@
     <ClCompile Include="BlackSlime.cpp" />
     <ClCompile Include="BleedAbility.cpp" />
     <ClCompile Include="BossMonster.cpp" />
+    <ClCompile Include="BossSpecialAbility.cpp" />
     <ClCompile Include="BossTile.cpp" />
     <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="EmptyTile.cpp" />
@@ -147,7 +148,12 @@
     <ClCompile Include="RestTile.cpp" />
     <ClCompile Include="Slime.cpp" />
     <ClCompile Include="Snake.cpp" />
-    <ClCompile Include="SpecialAbility.cpp" />
+    <ClCompile Include="PlayerSpecialAbility.cpp" />
+    <ClCompile Include="SpBoss1f.cpp" />
+    <ClCompile Include="SpBoss2f.cpp" />
+    <ClCompile Include="SpBoss3f.cpp" />
+    <ClCompile Include="SpBoss4f.cpp" />
+    <ClCompile Include="SpBoss5f.cpp" />
     <ClCompile Include="StunAbility.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="VenomousSnake.cpp" />
@@ -160,6 +166,7 @@
     <ClInclude Include="BlackSlime.h" />
     <ClInclude Include="BleedAbility.h" />
     <ClInclude Include="BossMonster.h" />
+    <ClInclude Include="BossSpecialAbility.h" />
     <ClInclude Include="BossTile.h" />
     <ClInclude Include="Dungeon.h" />
     <ClInclude Include="EmptyTile.h" />
@@ -175,7 +182,12 @@
     <ClInclude Include="RestTile.h" />
     <ClInclude Include="Slime.h" />
     <ClInclude Include="Snake.h" />
-    <ClInclude Include="SpecialAbility.h" />
+    <ClInclude Include="PlayerSpecialAbility.h" />
+    <ClInclude Include="SpBoss1f.h" />
+    <ClInclude Include="SpBoss2f.h" />
+    <ClInclude Include="SpBoss3f.h" />
+    <ClInclude Include="SpBoss4f.h" />
+    <ClInclude Include="SpBoss5f.h" />
     <ClInclude Include="StunAbility.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="VenomousSnake.h" />

@@ -1,41 +1,67 @@
-﻿  Big_Rat.cpp
+﻿  ArmorPierceAttackAbility.cpp
+  Big_Rat.cpp
   BlackSlime.cpp
+  BleedAbility.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\BossMonster.h(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
+  (소스 파일 'BlackSlime.cpp'을(를) 컴파일하는 중)
+  
   BossMonster.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\BossMonster.h(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
+  (소스 파일 'BossMonster.cpp'을(를) 컴파일하는 중)
+  
+  BossSpecialAbility.cpp
   BossTile.cpp
   Dungeon.cpp
   EmptyTile.cpp
+  FullHealTile.cpp
   GameManager.cpp
   Goblin.cpp
   GoblinWarrior.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\BossMonster.h(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
+  (소스 파일 'GoblinWarrior.cpp'을(를) 컴파일하는 중)
+  
   Kig_Rat.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\BossMonster.h(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
+  (소스 파일 'Kig_Rat.cpp'을(를) 컴파일하는 중)
+  
   Monster.cpp
   MonsterTile.cpp
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,10): error C3867: 'Monster::GetName': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
-      C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,10):
-      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(27,2):
-          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
-  
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,10): error C3867: 'Monster::GetName': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
-      C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,10):
-      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-          C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Monster.cpp(37,2):
-          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
-  
   Newbie in Dungeon.cpp
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
-C:\Users\tmdwn\Desktop\코딩 수업\-RPG-\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         with
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         [
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:             _Ty=int
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Newbie in Dungeon.cpp(70,58): warning C4267:         ]
   Player.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\Player.cpp(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
   RestTile.cpp
   Slime.cpp
-  Snake.cpp
-  Tile.cpp
-  VenomousSnake.cpp
-  WildDogLeader.cpp
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  Snake.cpp
+  PlayerSpecialAbility.cpp
+  SpBoss1f.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\SpBoss1f.cpp(21,15): error C2084: 'int SpBoss1f::getFixedEffectValue(void) const' 함수에 이미 본문이 있습니다.
+      C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\SpBoss1f.h(8,6):
+      'SpBoss1f::getFixedEffectValue'의 이전 정의를 참조하십시오.
+  
+  SpBoss2f.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\SpBoss2f.cpp(21,15): error C2084: 'int SpBoss2f::getFixedEffectValue(void) const' 함수에 이미 본문이 있습니다.
+      C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\SpBoss2f.h(9,6):
+      'SpBoss2f::getFixedEffectValue'의 이전 정의를 참조하십시오.
+  
+  SpBoss3f.cpp
+  SpBoss4f.cpp
+  SpBoss5f.cpp
+  StunAbility.cpp
+  Tile.cpp
+  VenomousSnake.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\BossMonster.h(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
+  (소스 파일 'VenomousSnake.cpp'을(를) 컴파일하는 중)
+  
+  WildDogLeader.cpp
+C:\Users\Administrator\Desktop\sbs-c--\Newbie_in_Dungeon\Newbie in Dungeon\Newbie in Dungeon\BossMonster.h(6,10): error C1083: 포함 파일을 열 수 없습니다. 'SpecialAbility.h': No such file or directory
+  (소스 파일 'WildDogLeader.cpp'을(를) 컴파일하는 중)
+  
   WildDogs.cpp
   코드를 생성하고 있습니다...
