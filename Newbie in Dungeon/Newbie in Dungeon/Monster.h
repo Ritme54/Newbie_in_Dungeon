@@ -18,6 +18,7 @@ private:
     int expGiven;//드랍하는 경험치
 
 
+
 public:
     Monster(std::string initialName, int initialHp, int initialAttack, int initialDefense, int initialExpGiven);
     virtual void Attack(Player& targetPlayer); // 플레이어를 공격

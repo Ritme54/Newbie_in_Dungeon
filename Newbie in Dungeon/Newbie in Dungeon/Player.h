@@ -1,11 +1,8 @@
 #pragma once
 #include <string>
-
-
+#include <memory> 
 class Monster;
-
-
-
+class SpecialAbility;
 
 class Player//캐릭터 생성 클래스
 {
@@ -31,8 +28,8 @@ private:
     // --- 새로운 전투 행동 관련 멤버 변수 ---
     bool isDefending; // 방어 상태 여부
     int strongAttackCooldown; // 강공격 쿨다운
-    int specialAbilityCooldown; // 특수능력 쿨다운
 
+    std::unique_ptr<SpecialAbility> selectedSpecialAbility;
 
 
 public:
@@ -41,15 +38,16 @@ public:
     void Attack(Monster& targetEnemy); // Enemy 클래스가 있다고 가정 몬스터 전체에 적용되도록 해야함. 기본적으로 플레이어 공격력-몬스터 방어력이 되도록 해야함.
     void TakeDamage(int damageAmount); //반대로 몬스터 공격력-플레이어 방어력이 되야함.(방어 효과 적용 예정)
     void GainExperience(int expAmount);//몬스터가 사망했을시 획득하는 경험치
-    void LevelUp();//최대치가 넘어가면 레벨업하며 일정하게 증가함
     void DisplayStatus();//화면에 생성될 플레이어 상태창 언제 얼마나 표시될지는 미정
     void Heal(int amount); // 회복
     void LevelUp(); // 레벨업 시 전략적 회복 스택 충전 로직 포함
-
+  
     // --- 새로운 전투 행동 함수 ---
     void StrongAttack(Monster& targetEnemy); // 강공격
     void Defend(); // 방어
-    void UseSpecialAbility(Monster& targetEnemy); // 특수능력 사용
+
+    void setSpecialAbility(std::unique_ptr<SpecialAbility> ability); // 특수능력 설정
+    void useSpecialAbility(Monster& targetEnemy); // 설정된 특수능력 사용
 
     // --- 턴 시작 시 상태 초기화 함수 (GameManager에서 호출) ---
     void ResetTurnState(); // 턴 시작 시 방어 상태 해제, 쿨다운 감소 등
@@ -73,7 +71,7 @@ public:
     int GetAttack() const; // 공격력을 반환
     int GetDefense() const; // 방어력을 반환
     std::string GetName() const; // 플레이어 이름을 반환
-
+  int GetLevel() const; //레벨 함수
     ~Player();
 
 

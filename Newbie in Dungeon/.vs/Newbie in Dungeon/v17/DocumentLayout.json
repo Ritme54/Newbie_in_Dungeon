@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\Newbie_in_Dungeon\\Newbie in Dungeon\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8491E00E-76AE-4377-8222-B3A2BF20E699}|Newbie in Dungeon\\Newbie in Dungeon.vcxproj|solutionrelative:Newbie in Dungeon\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dungeon.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.cpp",
+              "RelativeDocumentMoniker": "Newbie in Dungeon\\Dungeon.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\Dungeon.cpp",
+              "RelativeToolTip": "Newbie in Dungeon\\Dungeon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-25T14:43:18.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Newbie in Dungeon\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\-RPG-\\Newbie in Dungeon\\Newbie in Dungeon\\GameManager.cpp",
+              "RelativeToolTip": "Newbie in Dungeon\\GameManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-25T14:43:15.486Z",
+              "EditorCaption": ""
             }
           ]
         }

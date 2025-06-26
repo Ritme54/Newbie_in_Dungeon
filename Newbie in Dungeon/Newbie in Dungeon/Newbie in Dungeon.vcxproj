@@ -127,8 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArmorPierceAttackAbility.cpp" />
     <ClCompile Include="Big_Rat.cpp" />
     <ClCompile Include="BlackSlime.cpp" />
+    <ClCompile Include="BleedAbility.cpp" />
     <ClCompile Include="BossMonster.cpp" />
     <ClCompile Include="BossTile.cpp" />
     <ClCompile Include="Dungeon.cpp" />
@@ -146,14 +148,17 @@
     <ClCompile Include="Slime.cpp" />
     <ClCompile Include="Snake.cpp" />
     <ClCompile Include="SpecialAbility.cpp" />
+    <ClCompile Include="StunAbility.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="VenomousSnake.cpp" />
     <ClCompile Include="WildDogLeader.cpp" />
     <ClCompile Include="WildDogs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArmorPierceAttackAbility.h" />
     <ClInclude Include="Big_Rat.h" />
     <ClInclude Include="BlackSlime.h" />
+    <ClInclude Include="BleedAbility.h" />
     <ClInclude Include="BossMonster.h" />
     <ClInclude Include="BossTile.h" />
     <ClInclude Include="Dungeon.h" />
@@ -171,6 +176,7 @@
     <ClInclude Include="Slime.h" />
     <ClInclude Include="Snake.h" />
     <ClInclude Include="SpecialAbility.h" />
+    <ClInclude Include="StunAbility.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="VenomousSnake.h" />
     <ClInclude Include="WildDogLeader.h" />

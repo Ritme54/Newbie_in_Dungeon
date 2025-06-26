@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\게임 진행 매니저">
       <UniqueIdentifier>{7de8f974-fad7-4357-b49a-d6e1de22500d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\게임 진행 매니저\Ability">
+      <UniqueIdentifier>{c134e03b-d7f6-490a-9867-3071b95d8186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\게임 진행 메니저\Ability">
+      <UniqueIdentifier>{865f2430-f4a5-4894-a932-5e1e7c436357}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Newbie in Dungeon.cpp">
@@ -106,7 +112,16 @@
       <Filter>소스 파일\게임 진행 매니저</Filter>
     </ClCompile>
     <ClCompile Include="SpecialAbility.cpp">
-      <Filter>소스 파일\게임 진행 매니저</Filter>
+      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="StunAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorPierceAttackAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="BleedAbility.cpp">
+      <Filter>소스 파일\게임 진행 매니저\Ability</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -170,14 +185,23 @@
     <ClInclude Include="Goblin.h">
       <Filter>헤더 파일\monster</Filter>
     </ClInclude>
-    <ClInclude Include="SpecialAbility.h">
-      <Filter>헤더 파일\게임 진행 메니저</Filter>
-    </ClInclude>
     <ClInclude Include="GameManager.h">
       <Filter>헤더 파일\게임 진행 메니저</Filter>
     </ClInclude>
     <ClInclude Include="Dungeon.h">
       <Filter>헤더 파일\게임 진행 메니저</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="StunAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorPierceAttackAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="BleedAbility.h">
+      <Filter>헤더 파일\게임 진행 메니저\Ability</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
